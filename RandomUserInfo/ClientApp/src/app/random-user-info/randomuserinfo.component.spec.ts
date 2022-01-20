@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CounterComponent } from './counter.component';
+import { RandomUserInfoComponent } from './randomuserinfo.component';
 
-describe('CounterComponent', () => {
-  let fixture: ComponentFixture<CounterComponent>;
+describe('RandomUserInfoComponent', () => {
+  let fixture: ComponentFixture<RandomUserInfoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CounterComponent ]
+      declarations: [RandomUserInfoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CounterComponent);
+    fixture = TestBed.createComponent(RandomUserInfoComponent);
     fixture.detectChanges();
   });
 
